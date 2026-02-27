@@ -14,7 +14,7 @@ from typing import List, Dict
 OPCODES = {
     'BR': '0000', 'ADD': '0001', 'LD': '0010', 'ST': '0011', 'JSR': '0100', 'JSRR': '0100',
     'AND': '0101', 'LDR': '0110', 'STR': '0111', 'RTI': '1000', 'NOT': '1001', 'LDI': '1010',
-    'STI': '1011', 'JMP': '1100', 'LEA': '1110', 'TRAP': '1111', 'RET': '1101'
+    'STI': '1011', 'JMP': '1100', 'LEA': '1110', 'TRAP': '1111', 'RET': '1100'
 }
 
 BRFamily = {'BR', 'BRN', 'BRZ', 'BRP', 'BRNZ', 'BRNP', 'BRZP', 'BRNZP'}
